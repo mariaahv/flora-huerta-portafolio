@@ -1,0 +1,242 @@
+/*------Se repiten----------*/
+body{
+	font-size: 16px;
+	font-family: 'EB Garamond', serif;
+}
+
+#loader {
+  color: #ffffff;
+  background: radial-gradient(#5353b3, #6c28ac);
+  /* background: radial-gradient(#ff5d35, #d9534f); */
+}
+
+.fly-in-text{
+  text-align: center;
+  list-style: none;
+  position: absolute;
+  /* left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%); */
+}
+
+.fly-in-text li{
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  opacity: 1;
+  transition: all 2.5s ease;
+}
+
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+
+
+.fly-in-text li:last-child{
+  margin-right: 0;
+}
+.fly-in-text.hidden li{
+  opacity:0;
+}
+
+.line{
+	width: 4em;
+	border: 2px solid #F05F40;
+	margin: 1em auto;
+}
+
+.line-white{
+	width: 4em;
+	border: 2px solid #FFFFFF;
+	margin: 1em auto;
+}
+.bg-portafolio{
+	/* background-color:#9F839C; */
+	background-image: url(../img/fondo0.jpg);
+	background-size: cover;
+
+}
+
+.fondo-sobremi{
+	background-image: url(../img/cute.jpeg);
+	background-size: cover;
+
+
+}
+.text-portafolio{
+	color: #F05F40;
+}
+.text-white{
+	color: #FFFFFF;
+}
+
+.text-purple{
+	color:#AF70A8;
+
+}
+.text-green{
+	color:#4486B4;
+}
+.text-opacity{
+	/* color: rgba(255, 255, 255, 0.7); */
+}
+.title{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 5em;
+}
+.bg-black{
+	background-color: #000000;
+}
+
+.ver{
+	/* background:#AF70A8; */
+}
+/*--------HEADER----------*/
+.bg-image{
+	background-image: url(../img/2.jpeg);
+	/* background: #ff4a58; */
+	/* background: linear-gradient(to right, red , yellow); */
+	 /* background: linear-gradient( #000000, #3737A5  ); */
+	 /* background-color: #8181AC; */
+	/* background:  #ff5663; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 15% 10%;
+
+}
+.navbar .portafolio{
+	color: #afafaf;
+}
+.navbar #bs-example-navbar-collapse-1 .list{
+	color: gray;
+}
+.navbar #bs-example-navbar-collapse-1 .list:hover{
+	color: #F05F40;
+}
+.boton{
+	border: none;
+	border-radius: 70px;
+}
+.boton:hover{
+	background-color: #e75232;
+	color: #FFFFFF;
+}
+/*--------PRESENTACIÓN----------*/
+.presentacion{
+	margin-bottom: 0px;
+}
+#sobremi{
+	padding: 5% 20%;
+
+}
+.photo{
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+}
+.photos{
+	width: 100%;
+	height: 100%;
+
+}
+
+.photos-ambos{
+	width: 70%;
+	height: 70%;
+}
+.name{
+	font-size: 2em;
+}
+
+.tipografia{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	/* color: gray; */
+}
+/*--------HABILIDADES----------*/
+.habilidades{
+	padding: 5% 0%;
+	background: #AF70A8;
+	margin: 10%;
+}
+.icon{
+	font-size: 3em;
+}
+.tipos-habilidades{
+	padding: 10% 0%;
+} /*
+/*--------NUEVOS PROYECTOS----------*/
+.img {
+	width: 100%;
+	display: flex;
+}
+.newcategory{
+	opacity:0;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: auto;
+}
+
+.overlay:hover .newcategory{
+	opacity:0.9;
+	color:#FFFFFF;
+	font-weight:700;
+	background-color: #F05F40;
+	text-align: center;
+	padding-top: 20%;
+	min-height: 100%;
+}
+.overlay:hover .newcategory h4{
+	color: rgba(255, 255, 255, 0.7);
+}
+.no-p{
+	padding: 0px;
+}
+.github{
+	padding: 2em;
+	color: #FFFFFF;
+}
+.gitboton{
+	border: none;
+	border-radius: 70px;
+	margin-top: 1em;
+}
+
+/*--------FOOTER----------*/
+footer {
+	padding: 5% 0%;
+}
+.contact{
+	padding: 0% 20%
+}
+.contac-ico {
+	font-size: 2em;
+}
+.m-bottom{
+	margin-bottom: 1em;
+}
+
+
+@media (max-width: 1024px){
+	body{
+	font-size: 16px;
+	}
+}
+@media (max-width: 982px){
+	body{
+	font-size: 14px;
+	}
+}
+@media (max-width: 768px){
+	body{
+	font-size: 14px;
+	}
+}
+
+@media (max-width: 640px){
+	body{
+	font-size: 12px;
+	}
+}
