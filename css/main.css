@@ -2,6 +2,7 @@
 body{
 	font-size: 16px;
 	font-family: 'EB Garamond', serif;
+	background: #FBEFFB;
 }
 
 #loader {
@@ -62,6 +63,7 @@ body{
 .fondo-sobremi{
 	background-image: url(../img/cute.jpeg);
 	background-size: cover;
+	margin: -20px;
 
 
 }
@@ -106,6 +108,13 @@ body{
 	padding: 15% 10%;
 
 }
+
+.list{
+	/* background: red; */
+}
+.centrado{
+  transform:translateX(50%);
+}
 .navbar .portafolio{
 	color: #afafaf;
 }
@@ -131,6 +140,19 @@ body{
 	padding: 5% 20%;
 
 }
+
+#enlace-cv  {
+	background: #F5D0A9;
+		/* background-color: #e75232; */
+	color:black;
+}
+
+#enlace-cv:hover{
+	background-color: #e75232;
+		/* background: #DA81F5; */
+	color: #FFFFFF;
+
+}
 .photo{
 	width: 50%;
 	height: 50%;
@@ -152,7 +174,8 @@ body{
 }
 
 .tipografia{
-	font-family: 'Ubuntu Condensed', sans-serif;
+	/* font-family: 'Ubuntu Condensed', sans-serif; */
+	font-family: 'Dancing Script', cursive;
 	/* color: gray; */
 }
 /*--------HABILIDADES----------*/
@@ -195,6 +218,14 @@ body{
 	transform: translateY(0%);
 }
 
+.img{
+	transition: all 0.5s;
+}
+
+.container-item:hover .img {
+	transform: scale(1.15);
+}
+
 .container-item{
 	position: relative;
 	overflow: hidden; /* esto es para que  se oculte en la parte inferior*/
@@ -231,6 +262,22 @@ body{
 	border: none;
 	border-radius: 70px;
 	margin-top: 1em;
+	background: #F5D0A9;
+		/* background-color: #e75232; */
+	color:black;
+}
+
+#proyecto{
+	/* background: #F6CEF5; */
+}
+
+
+
+.gitboton:hover{
+	background-color: #e75232;
+		/* background: #DA81F5; */
+	color: #000000;
+
 }
 
 /*--------FOOTER----------*/
