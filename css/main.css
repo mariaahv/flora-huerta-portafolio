@@ -49,6 +49,12 @@ body{
 	margin: 1em auto;
 }
 
+.line-{
+	width: 4em;
+	border: 2px solid #8E5688;
+	margin: 1em auto;
+}
+
 .line-white{
 	width: 4em;
 	border: 2px solid #FFFFFF;
@@ -118,7 +124,22 @@ body{
 	/* background: red; */
 }
 .centrado{
-  transform:translateX(50%);
+  transform:translateX(25%);
+}
+
+.centrado li a{
+	font-size: 50px;
+	margin: 10px;
+	color: #AF70A8;
+}
+.email {
+		font-size: 50px;
+		/* transform:translateX(45%); */
+		color:#AF70A8;
+}
+
+.email:hover{
+	background: 8E5688;
 }
 .navbar .portafolio{
 	color: #afafaf;
@@ -175,13 +196,22 @@ body{
 	height: 5%;
 }
 .name{
-	font-size: 2em;
+	font-size: 3em;
+}
+#fondo-gif{
+	background-image: url(../img/gif1.gif);
+
 }
 
 .tipografia{
 	/* font-family: 'Ubuntu Condensed', sans-serif; */
 	font-family: 'Dancing Script', cursive;
 	/* color: gray; */
+}
+
+.tipografia-2{
+		font-family: 'Ubuntu Condensed', sans-serif;
+
 }
 /*--------HABILIDADES----------*/
 .habilidades{
@@ -218,23 +248,59 @@ body{
 	display: flex;
   justify-content: space-between;
 }
+.img-2{
+	width: 40%;
+}
 
 .text-proyectos{
 	position: absolute;
 	bottom: 0;
 	padding: 20px;
-
-	/* background: rgba(0,0,0,0.7); */
+	background: rgba(0,0,0,0.0);
 	color: #fff;
 	transform: translateY(100%);
 	transition: all 0.10s ease-out;
 
 }
 
+.img-proyectos{
+
+}
+
+
 .text-proyectos p{
 	text-align: justify;
 }
 
+.recursos{
+	/* background: pink; */
+	background: #F5E8DB;
+	margin-top: 20px;
+	box-shadow: 0 0 20px #E192D8;
+}
+
+.circulo {
+     /* width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c; */
+		 width: 30px;
+     height: 30px;
+		 background: white;
+		 border: none;
+		 border-radius: 70px;
+}
+
+.btn-recursos{
+	background: #fff;
+	border: none;
+	border-radius: 70px;
+	margin-bottom: 2px;
+
+	/* background: #F5D0A9; */
+}
 
 
 .container-item:hover .text-proyectos {
@@ -247,6 +313,7 @@ body{
 
 .container-item:hover .img {
 	transform: scale(1.15);
+
 }
 
 .container-item{
@@ -258,7 +325,7 @@ body{
 	opacity:0;
 	position: absolute;
 	top: 0px;
-	width: 100%;
+	width: 92%;
 	height: auto;
 }
 
@@ -268,8 +335,8 @@ body{
 	font-weight:700;
 	background-color: #F05F40;
 	text-align: center;
-	padding-top: 20%;
-	min-height: 100%;
+	padding-top: : 20%;
+	min-height: 12%;
 }
 .overlay:hover .newcategory h4{
 	color: rgba(255, 255, 255, 0.7);
@@ -288,6 +355,15 @@ body{
 	background: #F5D0A9;
 		/* background-color: #e75232; */
 	color:black;
+}
+
+.demo{
+	background:#AF70A8;
+	color: white;
+}
+.demo:hover{
+	background: #8B5585;
+
 }
 
 #proyecto{
@@ -340,3 +416,10 @@ footer {
 	font-size: 12px;
 	}
 }
+
+
+.jiterry span{
+	animation:jitter 200ms linear infinite;
+	color:#f06d06;
+	display:inline-block}
+@keyframes jitter{ 50%{transform:skewY(0.7deg) skewX(-0.7deg) scale(1.006);} }
