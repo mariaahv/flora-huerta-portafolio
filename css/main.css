@@ -275,10 +275,40 @@ body{
 .recursos{
 	/* background: pink; */
 	background: #F5E8DB;
-	margin-top: 20px;
-	box-shadow: 0 0 20px #E192D8;
+	margin-top: 5%;
+	box-shadow: 0 0 20px #E54C21;
 }
 
+.text-intereses{
+	color: #530D4B;
+	padding: 10%;
+	justify-content: center;
+
+}
+
+.color-titulo{
+	padding: 5%;
+	background: #FBEFFB;
+	color: purple;
+
+}
+
+.intereses{
+	background: white;
+	margin-top: 5%;
+	box-shadow: 0 0 20px #E192D8;
+	border-radius: 15px;
+	/* margin: 10%; */
+
+}
+
+.all{
+	margin: 10px;
+}
+
+.seccion-intereses{
+	 background: linear-gradient(#AF70A8,#FBEFFB);
+}
 .circulo {
      /* width: 30px;
      height: 30px;
@@ -380,6 +410,33 @@ body{
 
 }
 
+.sec-codigo{
+	margin-top: 5%;
+}
+
+.seccion-proyectos{
+	background-image: url(../img/fondo-proyectos.jpg);
+	/* background: #FBEFFB; */
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+.texto{
+	color: #530D4B;
+}
+
+.orange{
+	color:#E54C21;
+  padding: 5%;
+}
+
+/* .text-blue{
+	color:gray;
+} */
+
+.proyectos-desc{
+	margin: 8%;
+}
 /*--------FOOTER----------*/
 footer {
 	padding: 5% 0%;
