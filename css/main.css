@@ -118,6 +118,7 @@ body{
 	background-repeat: no-repeat;
 	padding: 15% 10%;
 
+
 }
 
 .list{
@@ -161,6 +162,16 @@ body{
 /*--------PRESENTACIÓN----------*/
 .presentacion{
 	margin-bottom: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.text-frase{
+	color:#93DBE6;
+}
+
+.phrase{
+	padding: 20%;
 }
 #sobremi{
 	padding: 5% 20%;
@@ -197,7 +208,21 @@ body{
 }
 .name{
 	font-size: 3em;
+	/* padding: 5%; */
 }
+
+#name {
+/* background: red; */
+
+}
+
+.texto-name {
+  background: -webkit-linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+
 #fondo-gif{
 	background-image: url(../img/gif1.gif);
 
@@ -207,6 +232,7 @@ body{
 	/* font-family: 'Ubuntu Condensed', sans-serif; */
 	font-family: 'Dancing Script', cursive;
 	/* color: gray; */
+
 }
 
 .tipografia-2{
